@@ -4,7 +4,7 @@
 # Palavras terminadas em -ANTE, -ENTE e -ISTA não variam e podem ser usadas para os dois gêneros.
 # Palavras terminadas em -AGEM, -IDADE e -ÇÃO são femininas.
 
-from synonyms import Search
+from functions.synonyms import Search
 import spacy
 
 def synonyms_for_gender_nouns(df, df_words_freq, word, normalized_word):
